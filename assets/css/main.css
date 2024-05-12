@@ -1450,7 +1450,7 @@ button,
   text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-  background-color: #43b3e0;
+  background-color: #88ab8e;
   padding: 1em 2.35em 1em 2.35em;
   font-size: 1.1em;
   max-width: 24em;
@@ -1460,7 +1460,7 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 button:hover,
 .button:hover {
-  background-color: #43bff0;
+  background-color: #7fab86;
   color: #fff !important;
 }
 input[type=button]:active,
@@ -1468,7 +1468,7 @@ input[type=submit]:active,
 input[type=reset]:active,
 button:active,
 .button:active {
-  background-color: #3ba8d3;
+  background-color: #78ad81;
   top: 1px;
 }
 input[type=button].large,
@@ -1692,7 +1692,7 @@ ul.actions li:first-child {
   font-family: "Font Awesome 5 Brands";
 }
 .icon.featured {
-  color: #ea8a95;
+  color: #3e3e3e;
   display: block;
   margin: 0 0 1.5em 0;
   cursor: default;
@@ -1811,7 +1811,7 @@ body > article {
 }
 
 #top {
-  padding: 10em 0 10em 0;
+  padding: 5em 0 5em 0;
   text-align: left;
 }
 #top .image {
@@ -1830,7 +1830,7 @@ body > article {
   margin-top: 0.35em;
 }
 #top p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.75em;
 }
 #top p a {
@@ -1839,6 +1839,18 @@ body > article {
 
 #contact footer {
   font-size: 0.9em;
+}
+
+.tech-stack {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tech-stack img {
+  height: 50px;
+  margin-top: 3rem;
 }
 
 /* Copyright */

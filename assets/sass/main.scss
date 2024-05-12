@@ -616,18 +616,18 @@ button,
   overflow: hidden;
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5),
     inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-  background-color: #43b3e0;
+  background-color: #88ab8e;
   padding: 1em 2.35em 1em 2.35em;
   font-size: 1.1em;
   max-width: 24em;
 
   &:hover {
-    background-color: #43bff0;
+    background-color: #7fab86;
     color: #fff !important;
   }
 
   &:active {
-    background-color: #3ba8d3;
+    background-color: #78ad81;
     top: 1px;
   }
 
@@ -872,7 +872,7 @@ ul.actions {
   }
 
   &.featured {
-    color: #ea8a95;
+    color: #3e3e3e;
     display: block;
     margin: 0 0 1.5em 0;
     cursor: default;
@@ -1006,7 +1006,7 @@ body > article {
 }
 
 #top {
-  padding: 10em 0 10em 0;
+  padding: 5em 0 5em 0;
   text-align: left;
 
   .image {
@@ -1028,7 +1028,7 @@ body > article {
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.75em;
 
     a {
@@ -1041,6 +1041,18 @@ body > article {
   footer {
     font-size: 0.9em;
   }
+}
+
+.tech-stack {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tech-stack img {
+  height: 50px;
+  margin-top: 3rem;
 }
 
 /* Copyright */
